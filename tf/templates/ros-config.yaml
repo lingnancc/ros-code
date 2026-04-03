@@ -1,0 +1,15 @@
+# 模板文件的相对路径
+template-file-path: templates/vswitch.tf
+
+# 部署时传入的参数值
+parameters:
+  region: cn-hangzhou
+  vpc_id: vpc-bp1q4gw11c0avni4or14v
+  zone_id: cn-hangzhou-h
+  vswitch_cidr: 172.16.1.0/24
+  vswitch_name: prod-vswitch-hangzhou
+
+# 可选：为资源栈添加标签
+tags:
+  env: production
+  owner: panlingnan
